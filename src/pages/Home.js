@@ -31,7 +31,7 @@ const Home = () => {
           <Box sx={{ textAlign: 'center', mb: 6 }}>
             <LocalHospitalIcon sx={{ fontSize: 60, color: '#1976d2', mb: 2 }} />
             <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold', color: '#1976d2' }}>
-              Smart Clinic Queue
+              Leada Clinic Queue
             </Typography>
             <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
               Streamline your clinic visits with our digital token system

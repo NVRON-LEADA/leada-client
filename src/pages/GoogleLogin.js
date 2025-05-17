@@ -39,7 +39,7 @@ const GoogleLogin = () => {
       }));
 
       // Redirect to the main app
-      window.location.href = 'https://nvron-clinic-management-client.vercel.app/';
+      window.location.href = 'https://leada-client.vercel.app/';
     } catch (error) {
       setError(error.message);
     } finally {

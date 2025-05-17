@@ -11,6 +11,8 @@ import DoctorDashboard from './pages/DoctorDashboard';
 import ReceptionDashboard from './pages/ReceptionDashboard';
 import DoctorLogin from './pages/Login';  // Renamed from Login
 import ReceptionLogin from './pages/ReceptionLogin';
+import firebase from './firebase/config';
+import GoogleLogin from './pages/GoogleLogin';
 
 // Create theme
 const theme = createTheme({
@@ -52,7 +54,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<GoogleLogin />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/token" element={<PatientToken />} />
           <Route path="/doctor/login" element={<DoctorLogin />} />
           <Route path="/reception/login" element={<ReceptionLogin />} />
